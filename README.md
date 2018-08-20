@@ -46,7 +46,7 @@ settings = {
 			'type':'code',
 			'content':[generate_signature,
 			{
-				'cwc_signer':cwc_signer,
+				'signer':signer,
 				'command':command,
 				'multi_tenant_priv_key':multi_tenant_priv_key,
 				'service_name':service_name,
@@ -83,7 +83,7 @@ Tags can be placed in the url, header or body portions of a request.
 Example request:
 ```
 POST /root/login/auth HTTP/1.1
-Host: api.authapi.net
+Host: myapi.net
 Connection: close
 Content-Type: application/json
 Content-Length: 78
