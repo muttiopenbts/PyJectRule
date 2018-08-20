@@ -1,4 +1,4 @@
-# PyJect
+# PyJectRule
 
 Code based on PyRules project at https://github.com/DanNegrea/PyRules
 
